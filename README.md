@@ -18,3 +18,9 @@ plot(obj)
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+
+``` r
+plot(1)
+```
+
+![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->

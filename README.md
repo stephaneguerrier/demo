@@ -13,7 +13,7 @@ devtools::install_github("stephaneguerrier/demo")
 
 ``` r
 library(inclassdemo)
-obj = mc_int(x_range = c(0,1), fun = "x^2", B = 10^5)
+obj = mc_int(x_range = c(0,1), fun = "x^3", B = 10^5)
 plot(obj)
 ```
 

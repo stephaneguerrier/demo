@@ -1,0 +1,9 @@
+reference:
+
+navbar:
+  left:
+  - text: Reference
+    href: reference/index.html
+  right:
+  - icon: fa-github
+    href: https://github.com/stephaneguerrier/demo

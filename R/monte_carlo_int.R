@@ -100,3 +100,10 @@ plot.MCI = function(x, ...){
   abline(v = x_range[1], lty = 2)
   abline(v = x_range[2], lty = 2)
 }
+
+
+#' @export
+MC_gui = function(){
+  appDir = system.file("MC_int", package = "inclassdemo")
+  shiny::runApp(appDir, display.mode = "normal")
+}
